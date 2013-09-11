@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="nestedcontrollerexample.PersonEditorController">
+	<Label text="First Name:">
+		<GridPane.columnIndex>0</GridPane.columnIndex>
+		<GridPane.rowIndex>0</GridPane.rowIndex>
+	</Label>
+	<Label text="Last Name:">
+		<GridPane.columnIndex>0</GridPane.columnIndex>
+		<GridPane.rowIndex>1</GridPane.rowIndex>
+	</Label>
+	<TextField fx:id="firstName">
+		<GridPane.columnIndex>1</GridPane.columnIndex>
+		<GridPane.rowIndex>0</GridPane.rowIndex>
+	</TextField>
+	<TextField fx:id="lastName">
+		<GridPane.columnIndex>1</GridPane.columnIndex>
+		<GridPane.rowIndex>1</GridPane.rowIndex>
+	</TextField>
+</GridPane>
+
